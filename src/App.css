@@ -1,0 +1,78 @@
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px; 
+}
+.main-heading{
+  color: rgb(5, 38, 158);
+  font-size:26px;
+}
+.underline{
+  height: 04px;
+  width: 4rem;
+  background-color:rgb(247, 0, 255);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bg-c-light{
+  background-color: #f2f2f2;
+}
+#inner-div{
+  display:inline-grid;
+  padding:10px;
+}
+#inner-card{
+  display:inline-block;
+  padding:10px;
+}
+.footer a{
+  color:rgb(255, 255, 255); 
+  text-decoration:none !important;
+}
+.footer a:hover{
+  color:rgb(247, 0, 255);
+}
+.bg-info{
+  padding: 20px;
+  text-align: inherit;
+}
+#bg-info{
+  padding: 20px;
+  text-align: inherit;
+  background-image: url(./components/images/navbar.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#school-responsive{
+  color: #ed008c;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+@media screen and (max-width: 600px) {
+  #school-responsive{
+    font-size: xx-small;
+  }
+  #text-responsive{
+    font-size:xx-small;
+  }
+
+}
+.background{
+  background-image: url(./components/images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#Navbar{
+  background-image: url(./components/images/navbar.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+}
+.VMC{
+  background-image: url(./components/images/footer.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
+
+}
