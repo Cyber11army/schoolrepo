@@ -25,10 +25,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node app.js",
-    "dev": "concurrently \"npm run start-app\" \"npm run nodemon\"",
+    "start": "concurrently \"npm run start-app\" \"npm run start-nodemon\"",
     "start-app": "react-scripts start",
-    "nodemon": "node app.js",
+    "start-nodemon": "node app.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
