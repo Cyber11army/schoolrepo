@@ -26,6 +26,15 @@ app.post("/",async(req,res)=>{
     await collection.insertMany([data])
 })
 
+app.use(express.static(path.join(__dirname, "./build")));
+app.get("*", function (_, res) {
+  res.sendFile(
+    path.join(__dirname, "./build/index.html"),
+    function (err) {
+      res.status(500).send(err);
+    }
+  );
+});
 
 app.listen(8000,function check(error)
 {

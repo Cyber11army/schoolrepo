@@ -9,20 +9,7 @@ var mongoose = require('mongoose');
 //     console.log("failed");
 // })//crud
 
-// mongoose.connect("mongodb://0.0.0.0:27017/cherryblossomkindergarten",function check(error)
-// {
-//     if(error)
-//     {
-//         console.log("error")
-//     }
-//     else
-//     {
-//         console.log("connected")
-//     }
-// });
-mongoose.connect("mongodb+srv://cybertronarmy2611:Cyber2611@cluster0.v9ot1ts.mongodb.net/cherryblossomkindergarten",
-
-    function check(error)
+mongoose.connect("mongodb://0.0.0.0:27017/cherryblossomkindergarten",function check(error)
 {
     if(error)
     {
@@ -33,6 +20,19 @@ mongoose.connect("mongodb+srv://cybertronarmy2611:Cyber2611@cluster0.v9ot1ts.mon
         console.log("connected")
     }
 });
+// mongoose.connect("mongodb+srv://cybertronarmy2611:Cyber2611@cluster0.v9ot1ts.mongodb.net/cherryblossomkindergarten",
+
+//     function check(error)
+// {
+//     if(error)
+//     {
+//         console.log("error")
+//     }
+//     else
+//     {
+//         console.log("connected")
+//     }
+// });
 
 const newSchema = new mongoose.Schema({
     name:{
